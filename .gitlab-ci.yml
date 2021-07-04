@@ -1,6 +1,10 @@
 stages : 
   - install 
   - test 
+  - deploy
+
+variables:
+  HEROKU_APP_NAME: TP-naruto-zairi
 
 dependencies: 
   stage: install 
