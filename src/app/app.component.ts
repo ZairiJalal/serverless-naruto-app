@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
   getData(){
     console.log("before call API");
     
-    return this._httpClient.get("http://us-central1-cours-tp.cloudfunctions.net/helloWorld/").subscribe(dataFirestore => {
+    return this._httpClient.get("https://us-central1-tp-serverless-697b2.cloudfunctions.net/helloWorld").subscribe(dataFirestore => {
       console.log("data", dataFirestore);
       this.data = dataFirestore;
     });

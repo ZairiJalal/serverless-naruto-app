@@ -12,8 +12,8 @@ import {environment} from '../environments/environment';
 import { FormsModule } from '@angular/forms';
 import { AuthService } from './service/auth.service';
 
-//import HTTP
 import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -29,7 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     AngularFireMessagingModule,
     AngularFireStorageModule,
     FormsModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [
     AngularFirestore,
