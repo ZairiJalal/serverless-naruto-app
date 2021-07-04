@@ -1,9 +1,8 @@
-stages : 
-  - stage_a 
+ stages : 
+   - install 
 
-job_l: 
-  stage: stage_a 
-  image: node:12-alpine 
-  script: 
-    - node --version 
- 
+ dependencies:
+   stage: install 
+   image: node:12-alpine 
+   script: 
+     - npm install 
