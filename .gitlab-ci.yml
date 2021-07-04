@@ -4,7 +4,7 @@ stages :
   - deploy
 
 variables:
-  HEROKU_APP_NAME: TP-naruto-zairi
+  HEROKU_APP_NAME: tp-naruto-zairi
 
 dependencies: 
   stage: install 
