@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'inpt-cloud-mamgas';
+  title = 'inpt-cloud-mamgas-';
   email: string;
   password: string;
   data: any = {};
